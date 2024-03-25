@@ -59,8 +59,8 @@ def undoom_dice(die1,die2):
     Therefore die_A can have any combination of numbers between 1,2,3,4.
     '''
     
-    new_die_A=[]
-    for i in range(6):
+    new_die_A=[1,2,3,4]
+    for i in range(2):
         new_die_A.append(random.randrange(1,5))
 
     '''
