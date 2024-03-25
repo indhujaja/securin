@@ -79,6 +79,7 @@ def undoom_dice(die1,die2):
         else:                           #To avoid negative value we change the value of new A 
             d=new_die_A[i]-die1[i]
             new_die_A[i]=d
+            new_die_B.insert(i,die2[i])
     print("The new die A: ",new_die_A)
     print("The new die B: ",new_die_B)
 
